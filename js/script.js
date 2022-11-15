@@ -10,10 +10,10 @@ document.querySelector(".menuMobile").addEventListener("click", function () {
 });
 
 
-window.onload =  function loading() {
-    document.getElementsByClassName('box-pre')[0].style.display = 'none';    
-    document.getElementsByClassName('content')[0].style.display = 'block'; 
-}
+// window.onload =  function loading() {
+//     document.getElementsByClassName('box-pre')[0].style.display = 'none';    
+//     document.getElementsByClassName('content')[0].style.display = 'block'; 
+// }
 
 
 
