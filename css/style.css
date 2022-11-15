@@ -372,6 +372,57 @@ nav a:hover{
     height: 3px;
     background-color: #ffc200;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+}
+footer h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.boxFooter{
+    display: flex;
+    
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+.last{
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 100px 0;
+}
+.last ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.last ul li a{
+    padding: 10px 0;
+    margin: 0;
+    color: #9a9a9a;
+}
+.last ul li a:hover{
+    background-color: transparent;
+    color: #ffc200;
+}
+.soci{
+    flex: 2;
+    margin-left: 25px;
+}
+.soci p{
+    font-size: 18px;
+    margin: 35px 0;
+    color: #9a9a9a;
+    margin-right: 100px;
+}
+.social nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 @media(max-width: 1085px){
@@ -380,7 +431,7 @@ nav a:hover{
         flex-direction: column;
         justify-content: space-around;
     }
-    nav ul{
+    .menu nav ul{
         flex-direction: column;
         /* display: none; */
         position: absolute;
@@ -433,6 +484,36 @@ nav a:hover{
         align-items: center;
         text-align: center;
     }
+}
+@media (max-width: 650px){
+    .last {
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 50px;
+        padding: 100px 0;
+    }
+    
+    .soci {
+        flex: 1;
+        margin-left: 0px;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .soci p {
+        margin: 28px 65px;
+    }
+    .boxFooter h2{
+        margin: auto;
+    }
+    .boxFooter nav {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 @media(max-width: 550px){
     .title_headline h1 {
@@ -499,6 +580,8 @@ nav a:hover{
     .text_sub p {
         padding: 0 20px;
     }
+
+
 }
 
 
