@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -425,6 +427,8 @@ footer h2{
 
 
 
+
+
 @media(max-width: 1085px){
     .menuMobile{
         display: flex;
@@ -433,7 +437,7 @@ footer h2{
     }
     .menu nav ul{
         flex-direction: column;
-        /* display: none; */
+        /* display: flex; */
         position: absolute;
         left: 0;
         background-color: #2f2f2f;
