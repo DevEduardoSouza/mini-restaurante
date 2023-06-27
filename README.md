@@ -1,9 +1,9 @@
 # Site de Restaurante - HTML, CSS e JS
 
+Este repositório contém um site de restaurante desenvolvido para treinar e aprimorar habilidades no front-end, utilizando HTML, CSS e um pouco de JavaScript. O projeto não possui funcionalidades, sendo focado no design e estrutura do front-end, incluindo a implementação de um formulário apenas com HTML e CSS.
+
 ![Imagem do Mini Restaurante](img/img_projeto.png)
 <a href="https://mini-restaurante.netlify.app">Link</a>
-
-Este repositório contém um site de restaurante desenvolvido para treinar e aprimorar habilidades no front-end, utilizando HTML, CSS e um pouco de JavaScript. O projeto não possui funcionalidades, sendo focado no design e estrutura do front-end, incluindo a implementação de um formulário apenas com HTML e CSS.
 
 ## Descrição
 
